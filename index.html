@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"  type="text/css" href="css/style.css">
+    <link rel="stylesheet"  type="text/css" href="css/style-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Food-Hub</title>
+</head>
+<body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#!">Food-Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#!">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="dishes.html">Dishes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="#!">
+                    <i class="fas fa-shopping-cart"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="#!">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="#!">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar ended -->
+        <!-- hero secction start  -->
+        <section class="hero-section ">
+          <div class="container d-flex justify-content-center align-items-center h-100 ">
+            <div class=" row align-items-center">
+              <div class="col-12">
+                <h1 class="mb-0 text-white display-1">Welcome to Food-Hub</h1>
+                <p class="text-center fs-3 text-white hero-txt "><a href="#popular" class="p-1">View Menu</a></p>
+              </div>
+            </div>
+          </div>
+        </section>
+           <!-- hero secction end  -->
+        <section class="popular mt-5 mb-5">
+          <div class="container mt-5">
+            <!-- intro row -->
+            <div class="row text-center" id="popular">
+              <p class="fs-1 food-name">Our popular Choices</p>
+              <p class="fs-4">These are the most popular choices among our customers</p>
+            </div>
+            <!-- intro row -->
+
+            <!-- dishes row -->
+            <div class="row d-flex justify-content-between">
+              <div class="col-12 col-md-4 gy-5 gy-lg-2">
+                <img src="assets/Burger.jpeg" class="img-fluid" alt="">
+                <p class="fs-3 fw-bold py-2 food-name">Burger With Meat</p>
+                <p class="c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laborum corrupti harum optio vero repellendus?</p>
+                <p class="add fs-6"> <a href="#" class="p-2 text-white">Order Now</a></p>
+              </div>
+              <div class="col-12 col-md-4 gy-5 gy-lg-2">
+                <img src="assets/fish-salad.jpeg" class="img-fluid" alt="">
+                <p class="fs-3 fw-bold py-2 food-name">Fish Salad</p>
+                <p class="c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laborum corrupti harum optio vero repellendus?</p>
+                <p class="add fs-6"> <a href="#" class="p-2 text-white">Order Now</a></p>
+              </div>
+              <div class="col-12 col-md-4 gy-5 gy-lg-2">
+                <img src="assets/meat-loaf.jpeg" class="img-fluid" alt="">
+                <p class="fs-3 fw-bold py-2 food-name">Meat Loaf</p>
+                <p class="c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laborum corrupti harum optio vero repellendus?</p>
+                <p class="add fs-6"> <a href="#" class="p-2 text-white">Order Now</a></p>
+              </div>
+            </div>
+            <!-- dishes row -->
+            <!-- View Full Menu button  -->
+            <div class="text-center fw-bold fs-3 mt-5 mb-5"><p class="view-btn">
+              <a href="dishes.html">View All Our Dishes</a>
+            </p></div>
+            <!-- View Full Menu button  -->
+          </div>
+        </section>
+
+        <section class="grid-box mt-5 mb-5">
+          <div class="grid-one ">
+            <img src="assets/slide/a.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="grid-two d-flex  align-items-center justify-content-center">
+            <p class="fs-3 text-white ">Order a Delicious Treat</p>
+          </div>
+          <div class="grid-three d-flex  align-items-center justify-content-center">
+            <p class="fs-3 text-white">Invite your friends</p>
+          </div>
+          <div class="grid-four"><img src="assets/slide/b.jpeg" class="img-fluid"></div>
+        </section>
+
+        <!-- send an email form  -->
+       <section class="forms mt-5 mb-5">
+        <div class="send-text">
+          <p class="text-center fs-3 fw-bold">
+            Reach out to us
+          </p>
+        </div>
+          <div class="email-body">
+            <div class="container">
+              <div class="row d-flex justify-content-center">
+                <div class="col-9">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <div class="send-message">
+                    <p class="btn message-btn text-white">Click to send</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       </section>
+        <!-- send an email form  ended-->
+
+        <!-- frequently answered questions section  -->
+        <section class="faq mt-5 mb-5">
+          <div class="container">
+            <div class="faq-text">
+              <p class="fw-bold fs-3 text-center">Frequently Asked Questions</p>
+            </div>
+
+            <div class="accordion">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" 
+                    aria-expanded="true" aria-controls="collapseOne">
+                     <strong>Are There Discounts on Our Dishes?</strong> 
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" 
+                  data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      The short answer is yes. We like to reward customers with
+                      mouth watering discounts .
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>How Fast do we Deliver ?</strong> 
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      We Deliver in 30 minutes to one hour depending on the location
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <strong>When are your working hours ?</strong> 
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" 
+                  data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      We are open from 9 a.m to 8 p.m on weekdays, and 12 p.m to 8 p.m on weekends
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+        </section>
+        <!-- frequently answered questions section   ended -->
+
+        <!-- footer section start  -->
+
+          <footer class="text-center text-lg-start mt-5" style="background-color: #db6930;" id="contact">
+            <div class="container d-flex justify-content-center py-5 footer-links">
+              <a class="nav-link fs-2" href="#!">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a class="nav-link fs-2" href="#!">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="nav-link fs-2" href="#!">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a class="nav-link fs-2" href="#!">
+                <i class="fab fa-tiktok"></i>
+              </a>
+              <a class="nav-link fs-2" href="tel://+1234567890" id="phone">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+              </div>
+         
+        
+            <!-- Copyright -->
+            <div class="text-center text-white p-2." style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2022 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">SamuuelDean@github.io</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+          
+        <!-- End of container -->
+        <!-- footer section end  -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

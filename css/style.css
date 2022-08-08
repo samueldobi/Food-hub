@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+body{
+    font-family: 'Roboto Flex', sans-serif;
+    scroll-behavior:smooth;
+}
+/* navbar start  */
+.navbar-brand {
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.navbar-scroll .navbar-brand,
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+    color: #F2DF3A;
+}
+.navbar-bg{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.13);
+}
+.navbar-scrolled {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+}
+/* navbar end  */
+
+/* links  start*/
+.hero-txt>a {
+    text-decoration: none;
+    color: #fff;
+    border: solid 1px #fff;
+}
+.hero-txt>a:hover{
+    background-color:rgba(0, 0, 0, 0.5) ;
+}
+.view-btn>a,.add >a{
+    text-decoration: none;
+    color:#F2DF3A;
+}
+.add >a{
+    border: 1px solid #db6930;
+    background: #db6930;
+    border-radius: 10px;
+}
+/* links end */
+.hero-section{
+    background: url('../assets/rice2.jpg');
+    height: 100vh;
+    /* width: 100%; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-section>div{
+    background: transparent;
+}
+.food-name{
+    color:#F2DF3A;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-two, .grid-three{
+    background: url('../assets/sun-tornado.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.message-btn{
+    background: #db6930;
+}
+.footer-links>a {
+    color:#F2DF3A
+}
+.footer-links>a:hover{
+    color: rgba(0, 0, 0, 0.5) ;
+}
+/* fade in effect  */
+.hero-section {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+/* fade in effect  */
