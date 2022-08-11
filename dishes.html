@@ -151,7 +151,56 @@
 
 
 
+<section class="list">
+  <ul class="d-flex" style="list-style-type: none;">
+    <style>
+      li {
+        padding: 20px;
+      }
+      .div2,.div3{
+        display: none;
+      }
+    </style>
+    <li id="a">A</li>
+    <li id="b">B</li>
+    <li id="c">C<A/li>
+  </ul>
+  <div class="col-12 div1" style="color: red;">
+    Lorem ipsum dolor sit amet.
+  </div>
+  <div class="col-12 div2" style="color: blue;">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, asperiores.
+  </div>
+  <div class="col-12 div3" style="color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Facere repellendus hic porro, natus assumenda eos earum deserunt vel quisquam fugit.</div>
+</section>
+<script>
+  const div1 = document.querySelector('.div1')
+  const div2 = document.querySelector('.div2')
+  const div3 = document.querySelector('.div3')
+  const a = document.getElementById('a')
+  const b = document.getElementById('b')
+  const c = document.getElementById('c')
 
+  function changeSlide(){
+   div1.style.display = "block"
+   div2.style.display = "none"
+   div3.style.display = "none"
+  }
+  a.addEventListener('click', changeSlide)
+  function changeSlideB(){
+   div1.style.display = "none"
+   div2.style.display = "block"
+   div3.style.display = "none"
+  }
+  b.addEventListener('click', changeSlideB)
+  function changeSlideC(){
+   div1.style.display = "none"
+   div2.style.display = "none"
+   div3.style.display = "block"
+  }
+  c.addEventListener('click', changeSlideC)
+</script>
 
 
       <!-- footer section start  -->

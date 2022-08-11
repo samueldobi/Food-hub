@@ -3,6 +3,9 @@ body{
     font-family: 'Roboto Flex', sans-serif;
     scroll-behavior:smooth;
 }
+/* .about-us{
+    background-color: rgb(255, 223, 223);
+} */
 /* navbar start  */
 .navbar-brand {
     letter-spacing: 3px;
@@ -12,7 +15,7 @@ body{
 .navbar-scroll .navbar-brand,
 .navbar-scroll .nav-link,
 .navbar-scroll .fa-bars {
-    color: #F2DF3A;
+    color: #FEA116;
 }
 .navbar-bg{
     backdrop-filter: blur(16px) saturate(180%);
@@ -35,11 +38,11 @@ body{
 }
 .view-btn>a,.add >a{
     text-decoration: none;
-    color:#F2DF3A;
+    color:#FEA116;
 }
 .add >a{
-    border: 1px solid #db6930;
-    background: #db6930;
+    border: 1px solid #FEA116;
+    background: #FEA116;
     border-radius: 10px;
 }
 /* links end */
@@ -54,8 +57,16 @@ body{
 .hero-section>div{
     background: transparent;
 }
+.about-box{
+    box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.75);
+}
 .food-name{
-    color:#F2DF3A;
+    color:#FEA116;
+}
+.img-svg{
+    width: 3rem;
 }
 .grid-box{
     display: grid;
