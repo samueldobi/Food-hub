@@ -19,7 +19,3 @@ function addCounter(){
     counterValue.value++
 }
 addBtn.addEventListener('click', addCounter)
-console.log(counterValue)
-// console.log(inputHolder.innerHTML++)
-
-// document.querySelector('input[name="my-input"]').value = counterIndex --

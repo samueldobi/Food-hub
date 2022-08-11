@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
      crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" 
+     integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />'
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" 
+     integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Food-Hub</title>
 </head>
 <body>
@@ -37,7 +43,7 @@
               <ul class="navbar-nav d-flex flex-row">
                 <li class="nav-item me-3 me-lg-0">
                   <a class="nav-link" href="#!">
-                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas  fa-tiktok"></i>
                   </a>
                 </li>
                 <li class="nav-item me-3 me-lg-0">
@@ -56,7 +62,7 @@
         </nav>
         <!-- Navbar ended -->
         <!-- hero secction start  -->
-        <section class="hero-section ">
+        <section class="hero-section mb-5">
           <div class="container d-flex justify-content-center align-items-center h-100 ">
             <div class=" row align-items-center">
               <div class="col-12">
@@ -67,10 +73,52 @@
           </div>
         </section>
            <!-- hero secction end  -->
-        <section class="popular mt-5 mb-5">
+        
+           <!-- about us section begins  -->
+           <section class="about-us mt-5 mb-5">
+            <div class="container ">
+              <div class="row   g-4 wow bounceInUp">
+                <!--  -->
+                <div class="col-lg-3 col-sm-6 ">
+                  <div class="about-box p-4">
+                    <img src="assets/svgs/restaurant-outline.svg" class="img-fluid img-svg " alt="">
+                    <p class="fs-3 fw-bold ">Quality Food</p>
+                  <p class="lead">Get the best dishes here prepared by the best chefs</p>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="col-lg-3 col-sm-6 ">
+                  <div class="about-box p-4">
+                    <img src="assets/svgs/person-outline.svg " class="img-fluid img-svg " alt="">
+                    <p class="fs-3 fw-bold ">Good Service</p>
+                  <p class="lead">We offer professional  services to make you comfy and feel good</p>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="col-lg-3 col-sm-6">
+                  <div class="about-box p-4">
+                    <img src="assets/svgs/clipboard-outline.svg" class="img-fluid img-svg m-3" alt="">
+                    <p class="fs-3 fw-bold ">Variety Menu</p>
+                    <p class="lead">Our detailed and variety menu is impressive</p>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="col-lg-3 col-sm-6">
+                  <div class="about-box p-4">
+                    <img src="assets/svgs/wallet-outline.svg" class="img-fluid img-svg m-3" alt="">
+                    <p class="fs-3 fw-bold ">Friendly Prices</p>
+                    <p class="lead">You dont need to break the bank to eat with us </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </section>
+            <!-- about us section ends -->
+          <!-- popular section starts  -->
+        <section class="popular mt-5 mb-5" id="popular">
           <div class="container mt-5">
             <!-- intro row -->
-            <div class="row text-center" id="popular">
+            <div class="row text-center" >
               <p class="fs-1 food-name">Our popular Choices</p>
               <p class="fs-4">These are the most popular choices among our customers</p>
             </div>
@@ -105,6 +153,255 @@
             <!-- View Full Menu button  -->
           </div>
         </section>
+        <!-- popular section ends  -->
+
+        <!-- tabs section starts  -->
+        <div class="container">
+          <div class="row">
+            <ul class="nav nav-tabs justify-content-around" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#breakfast"
+                 type="button" role="tab" aria-controls="home" aria-selected="true">Breakfast</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#lunch" 
+                type="button" role="tab" aria-controls="profile" aria-selected="false">Lunch</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#dinner" type="button"
+                 role="tab" aria-controls="contact" aria-selected="false">Dinner</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="drink-tab" data-bs-toggle="tab" data-bs-target="#drinks" type="button"
+                 role="tab" aria-controls="contact" aria-selected="false">Drinks</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="home-tab">
+                <div class="row g-4 p-2">
+                  <!-- Breakfast -->
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+                <!-- Breakfast -->
+                <!-- Lunch -->
+              <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="row g-4 p-2">
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+              <!-- Lunch -->
+              <!-- Dinner -->
+              <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="row g-4 p-2">
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+              <!-- Dinner -->
+              <!-- Drinks -->
+              <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="row g-4 p-2">
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">even if say you wan gba me for them</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img src="assets/slide/a.jpeg" alt="" class="img-fluid p-2" style="width:100px;">
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                            <span>Chicken Burger</span>
+                            <span class="text-primary">$115</span>
+                        </h5>
+                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                    </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+              <!-- Drinks -->
+            </div>
+          </div>
+        </div>
+
+        <!-- tabs section ends  -->
 
         <section class="grid-box mt-5 mb-5">
           <div class="grid-one ">
@@ -242,5 +539,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 </body>
 </html>
