@@ -6,9 +6,4 @@ function changeNav(){
     navscroll.classList.add('navbar-bg')
 }
 document.addEventListener('scroll', changeNav)
-// display phoneNumber when clicked
-function displayNum(){
-    //
-    console.log('hello')
-}
-phone.addEventListener('click', displayNum)
+
