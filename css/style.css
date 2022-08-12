@@ -50,7 +50,6 @@ body{
 .hero-section{
     background: url('../assets/rice2.jpg');
     height: 100vh;
-    /* width: 100%; */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,9 +69,11 @@ body{
 .img-svg{
     width: 3rem;
 }
-.grid-box{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.reserve-img{
+    background: url('../assets/slide/lunch-4.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .grid-two, .grid-three{
     background: url('../assets/sun-tornado.svg');

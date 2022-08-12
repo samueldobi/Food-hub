@@ -56,7 +56,7 @@
         </nav>
         <!-- Navbar ended -->
         <!-- hero secction start  -->
-        <section class="hero-section mb-5">
+        <section class="hero-section mb-5 py-5">
           <div class="container d-flex justify-content-center align-items-center h-100 ">
             <div class=" row align-items-center">
               <div class="col-12">
@@ -69,7 +69,7 @@
            <!-- hero secction end  -->
         
            <!-- about us section begins  -->
-           <section class="about-us mt-5 mb-5">
+           <section class="about-us mt-5 mb-5 py-5">
             <div class="container ">
               <div class="row   g-4 wow bounceInUp">
                 <!--  -->
@@ -109,7 +109,7 @@
            </section>
             <!-- about us section ends -->
           <!-- popular section starts  -->
-        <section class="popular mt-5 mb-5" >
+        <section class="popular mt-5 mb-5 py-5" >
           <div class="container mt-5">
             <!-- intro row -->
             <div class="row text-center" >
@@ -122,27 +122,27 @@
             <div class="row d-flex justify-content-between">
               <div class="col-12 col-md-4 gy-5 gy-lg-2">
                 <img src="assets/Burger.jpeg" class="img-fluid" alt="">
-                <p class="fs-3 fw-bold py-2  text-dark">Burger With Meat</p>
-                <p class="c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laborum corrupti harum optio vero repellendus?</p>
-                <p class="add fs-6"> <a href="#" class="p-2 text-white">Order Now</a></p>
+                <p class="fs-3 fw-bold py-2  text-dark">Beef Burger</p>
+                <p class="c">Well cooked beef with thai bread and berries</p>
+                <p class="add fs-6"> <a href="#reserve" class="p-2 text-white">Reserve a Table</a></p>
               </div>
               <div class="col-12 col-md-4 gy-5 gy-lg-2">
                 <img src="assets/fish-salad.jpeg" class="img-fluid" alt="">
                 <p class="fs-3 fw-bold py-2  text-dark">Fish Salad</p>
-                <p class="c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laborum corrupti harum optio vero repellendus?</p>
-                <p class="add fs-6"> <a href="#" class="p-2 text-white">Order Now</a></p>
+                <p class="c">Fresh fried fish with kale or cabbage salad depending on your choice</p>
+                <p class="add fs-6"> <a href="#reserve" class="p-2 text-white">Reserve a Table</a></p>
               </div>
               <div class="col-12 col-md-4 gy-5 gy-lg-2">
                 <img src="assets/meat-loaf.jpeg" class="img-fluid" alt="">
                 <p class="fs-3 fw-bold py-2  text-dark">Meat Loaf</p>
-                <p class="c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laborum corrupti harum optio vero repellendus?</p>
-                <p class="add fs-6"> <a href="#" class="p-2 text-white">Order Now</a></p>
+                <p class="c">Grilled meat loaf with vegetables and sweet tomato sauce to match</p>
+                <p class="add fs-6"> <a href="#reserve" class="p-2 text-white">Reserve a Table</a></p>
               </div>
             </div>
             <!-- dishes row -->
             <!-- View Full Menu button  -->
             <div class="text-center fw-bold fs-3 mt-5 mb-5"><p class="view-btn">
-              <a href="dishes.html" class="food-name">View All Our Dishes</a>
+              <a href="#" class="food-name">View All Our Dishes</a>
             </p></div>
             <!-- View Full Menu button  -->
           </div>
@@ -150,7 +150,7 @@
         <!-- popular section ends  -->
 
         <!-- tabs section starts  menu -->
-        <div class="container mt-5 mb-5" id="dishes">
+        <div class="container mt-5 mb-5 py-5" id="dishes">
           <div class="row">
             <ul class="nav nav-tabs justify-content-around" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
@@ -394,24 +394,73 @@
             </div>
           </div>
         </div>
-
         <!-- tabs section ends  -->
 
-        <section class="grid-box mt-5 mb-5">
-          <div class="grid-one ">
-            <img src="assets/slide/lunch-4.jpeg" class="img-fluid" alt="">
+           <!-- Grid section start -->
+        <section class="grid-box mt-5 mb-5 py-5 px-0">
+          <div class="row g-0">
+            <div class="col-md-6 reserve-img">
+            <!--  -->
+            </div>
+            <div class="col-md-6 d-flex align-items-center grid-two" id="reserve">
+          
+                <div class="p-5 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <h5 class="section-title ff-secondary text-start text-light fw-normal ">Reservation</h5>
+                    <h1 class="text-white mb-4">Book A Table Online</h1>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating date" id="date3" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" id="datetime" placeholder="Date &amp; Time" data-target="#date3" data-toggle="datetimepicker">
+                                    <label for="datetime">Date &amp; Time</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="select1">
+                                      <option value="1">People 1</option>
+                                      <option value="2">People 2</option>
+                                      <option value="3">People 3</option>
+                                      <option value="3">People 4</option>
+                                      <option value="3">People 5</option>
+                                      <option value="3">People 6</option>
+                                    </select>
+                                    <label for="select1">No Of People</label>
+                                  </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Special Request</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+          
+            </div>
           </div>
-          <div class="grid-two d-flex  align-items-center justify-content-center">
-            <p class="fs-3 text-white ">Order a Delicious Treat</p>
-          </div>
-          <div class="grid-three d-flex  align-items-center justify-content-center">
-            <p class="fs-3 text-white">Invite your friends</p>
-          </div>
-          <div class="grid-four"><img src="assets/slide/b.jpeg" class="img-fluid"></div>
+  
         </section>
+          <!-- Grid section end -->
 
         <!-- send an email form  -->
-       <section class="forms mt-5 mb-5" id="#reach-out">
+       <section class="forms mt-5 mb-5 py-5" id="#reach-out">
         <div class="send-text">
           <p class="text-center fs-3 fw-bold">
             Reach out to us
@@ -440,7 +489,7 @@
         <!-- send an email form  ended-->
 
         <!-- frequently answered questions section  -->
-        <section class="faq mt-5 mb-5">
+        <section class="faq mt-5 mb-5 ">
           <div class="container">
             <div class="faq-text">
               <p class="fw-bold fs-3 text-center">Frequently Asked Questions</p>
