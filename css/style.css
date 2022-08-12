@@ -4,9 +4,6 @@ body{
     font-family: 'Roboto Flex', sans-serif;
     scroll-behavior:smooth;
 }
-/* .about-us{
-    background-color: rgb(255, 223, 223);
-} */
 /* navbar start  */
 .navbar-brand {
     letter-spacing: 3px;
@@ -15,7 +12,10 @@ body{
 }
 .navbar-scroll .navbar-brand,
 .navbar-scroll .nav-link,
-.navbar-scroll .fa-bars,.add-color {
+.navbar-scroll .fa-bars{
+    color: #FEA116;
+}
+.add-color {
     color: #FEA116;
 }
 .navbar-bg{
